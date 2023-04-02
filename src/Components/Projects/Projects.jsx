@@ -22,7 +22,6 @@ export default function Projects() {
           </p><br />
 
           <div className='links'>
-            <a href="#" target="_blank">Project Link</a><br />
             <a href="https://github.com/Muzi09/Contacts-Manager" target="_blank">Git Hub Link</a>
           </div>
         </div>
