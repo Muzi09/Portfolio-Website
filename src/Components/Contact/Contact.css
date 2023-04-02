@@ -1,0 +1,57 @@
+#linkedin {
+    width: 1.8em;
+    height: 1.8em;
+    position: relative;
+    top: 2em;
+    left: 4em;
+}
+
+#linked-in-link {
+    color: lightblue;
+    font-size: x-large;
+    position: relative;
+    font-weight: bold;
+    top: 1.2em;
+    left: 3em;
+}
+
+#git-hub {
+    background-color: aliceblue;
+    width: 1.8em;
+    height: 1.8em;
+    position: relative;
+    top: 6em;
+    right: 5.85em;
+    border-radius: 5px;
+}
+
+#git-hub-link {
+    color: lightblue;
+    font-size: x-large;
+    position: relative;
+    font-weight: bold;
+    top: 3.9em;
+    right: 3.4em;
+}
+
+#gmail {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: 10em;
+    right: 14em;
+}
+
+#gmail-link {
+    color: lightblue;
+    font-size: x-large;
+    position: relative;
+    font-weight: bold;
+    top: 6.4em;
+    right: 9em;
+}
+
+
+#gmail-link:hover, #git-hub-link:hover, #linked-in-link:hover {
+    color: cyan;
+} 

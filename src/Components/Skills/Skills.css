@@ -1,0 +1,83 @@
+.skill {
+    font-size: larger;
+    font-weight: bold;
+    border: none;
+    color: rgb(17, 26, 26);
+}
+
+.skill:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-div {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 80%;
+}
+
+.skill:nth-child(even) {
+    position: relative;
+    left: 20em;
+    background-color: lightcoral;
+    width: 10em;
+    height: 2em;
+    border-radius: 1em;
+    box-shadow: -5px 5px 8px 1px lightgreen;
+}
+
+
+
+.skill:nth-child(odd) {
+    position: relative;
+    left: 6em;
+    background-color: lightgreen;
+    width: 10em;
+    height: 2em;
+    border-radius: 1em;
+    box-shadow: -5px 5px 8px 1px lightcoral;
+}
+
+#dsa {
+    height: 3em;
+
+}
+
+.info-div {
+    background-color: white;
+    width: 33em;
+    height: 15em;
+    position: absolute;
+    left: 33.5em;
+    bottom: 10em;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    color: rgb(17, 26, 26);
+    border-radius: 1em;
+    padding: 1em;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .fade-in {
+    opacity: 1;
+
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+
+
+  .lightgreen {
+    background-color: lightgreen;
+    box-shadow: -5px 5px 8px 1px lightcoral;
+  }
+
+  .lightcoral {
+    background-color: lightcoral;
+    box-shadow: -5px 5px 8px 1px lightgreen;
+  }

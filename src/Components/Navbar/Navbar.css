@@ -1,0 +1,42 @@
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 26, 26) ;
+}
+
+.nav {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home, .skills, .projects, .contact {
+    background-color: rgb(17, 26, 26);
+    border: none;
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+
+.home:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    color: aqua;
+}
+.skills:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    color: aqua;
+}
+.projects:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    color: aqua;
+}
+.contact:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    color: aqua;
+}

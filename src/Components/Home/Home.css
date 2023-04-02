@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Titillium+Web:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 26, 26) ;
+}
+
+
+
+.greet, .about, .para {
+    color: rgb(182, 182, 182);
+    width: 70%;
+}
+
+.greet {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.about {
+    margin-left: 2.7em;
+    margin-top: 0.6em;
+}
+
+.para {
+    font-size: large;
+    margin-left: 3.7em; 
+    margin-top: 1em;
+}
